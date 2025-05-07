@@ -1,6 +1,6 @@
-var o=document.querySelectorAll(".drum").length;
+var o=document.querySelectorAll("drum").length;
 for(var i=0;i<o;i++){
-    document.querySelectorAll(".drum")[i].addEventListener("click",function(){
+    document.querySelectorAll("drum")[i].addEventListener("click",function(){
         var inner=this.innerHTML;
        
     makesound(inner);
